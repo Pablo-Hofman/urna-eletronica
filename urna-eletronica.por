@@ -2,23 +2,44 @@ programa
 {
 	
 	funcao inicio()
-	{//
-			
-		inteiro a,b,adicao,subtracao,multiplicacao, modulo
-		real divisao
-		a = 11
-		b = 7
-		adicao = a + b
-		subtracao = a - b
-		multiplicacao = a * b
-		divisao = a / b
-		modulo = a % b
+	{
+		cadeia candidato1, candidato2, candidato3
+		inteiro votos1, votos2, votos3 , votosNulos, votosBrancos, idade	
+
+		escreva("Digite sua idade: ")
+		leia(idade) 
+		se(idade <= 16){
+		escreva("NÃO PODE VOTAR.")
+		}
 		
-		escreva("A adição tem valor igual à: ", adicao , "\n")
-		escreva("A subtração tem valor igual à: ", subtracao , "\n")
-		escreva("A multiplicação tem valor igual à: ", multiplicacao , "\n")
-		escreva("A divisão tem valor igual à: ", divisao , "\n")
-		escreva("O resto da divisão tem valor igual á: ", modulo , "\n")
+		senao se (idade == 17){
+		escreva ("VOTO OPCIONAL")
+		}
+
+		senao{
+		escreva("VOTO OBRIGATÓRIO")
+		}
+
+		 
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 	}
 
 }
@@ -27,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 545; 
+ * @POSICAO-CURSOR = 211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
